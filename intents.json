@@ -1,0 +1,73 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good day", "Greetings"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! Need help with anything?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later"],
+        "responses": ["Goodbye! Let us know if you need anything else.", "See you later, have a great day!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot"],
+        "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+      },
+      {
+        "tag": "payment_methods",
+        "patterns": ["How can I pay?", "Accepted payments?", "Do you take credit cards?", "Can I use PayPal?"],
+        "responses": ["We accept Visa, MasterCard, AmEx, UPI, and PayPal.", "You can pay with most major cards, UPI, or PayPal."]
+      },
+      {
+        "tag": "order_status",
+        "patterns": ["Track my order", "Order status", "Where is my package?", "Is my order shipped?"],
+        "responses": ["Please share your order ID to check the status.", "Sure! I need your order number to help with that."]
+      },
+      {
+        "tag": "refund_policy",
+        "patterns": ["Refund policy", "Can I return this?", "What about returns?", "How do I get a refund?"],
+        "responses": ["You can return products within 30 days. Visit our refund page for full details.", "We offer refunds on eligible items. Let me direct you to the return policy."]
+      },
+      {
+        "tag": "product_recommendation",
+        "patterns": ["Suggest a product", "What should I buy?", "Any recommendations?", "Looking for a gift"],
+        "responses": ["Can you tell me the category you're interested in?", "Sure! What's your budget and preference?"]
+      },
+      {
+        "tag": "technical_support",
+        "patterns": ["Website not working", "Payment page error", "I can't complete my order", "Having issues with checkout"],
+        "responses": ["Sorry about that! Could you describe the issue?", "Let me help. What exactly isn't working?"]
+      },
+      {
+        "tag": "delivery_time",
+        "patterns": ["How long is delivery?", "When will it arrive?", "Delivery time estimate"],
+        "responses": ["Most deliveries arrive in 2-5 business days.", "Shipping typically takes 2 to 5 days."]
+      },
+      {
+        "tag": "account_help",
+        "patterns": ["I forgot my password", "How to reset my password?", "Can't log in", "Help with my account"],
+        "responses": ["You can reset your password on the login page.", "Let me guide you through password recovery."]
+      },
+      {
+        "tag": "offers_discounts",
+        "patterns": ["Any offers?", "Do you have discounts?", "Coupon codes?", "Ongoing deals?"],
+        "responses": ["Yes! Check our Offers page or ask me for today’s deals.", "We have seasonal discounts available right now!"]
+      },
+      {
+        "tag": "feedback",
+        "patterns": ["I want to give feedback", "Can I rate my experience?", "Submit feedback"],
+        "responses": ["We'd love your feedback! Please use our feedback form.", "Sure! Tell me what you’d like to share."]
+      },
+      {
+        "tag": "security_help",
+        "patterns": ["Is my payment secure?", "How safe is this website?", "Data privacy policy?"],
+        "responses": ["We use SSL encryption and follow strict privacy protocols.", "Your payments are secure with end-to-end encryption."]
+      }
+    ]
+  }
+
+
+     
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
